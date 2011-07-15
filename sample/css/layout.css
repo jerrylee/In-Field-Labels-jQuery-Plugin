@@ -73,7 +73,7 @@ form, form fieldset input, form fieldset textarea, form label {
 	font-family: Helvetica, Arial;
 	font-size: 12pt;
 }
-form p { position: relative; margin: 10px 0;}
+form p { position: relative; margin: 10px 0; }
 form p label { position: absolute; top: 0; left: 0;}
 form p br {display: none;}
 
@@ -83,7 +83,7 @@ form fieldset p textarea {
 	display: block;
 	padding: 4px;
 	width: 400px;
-	margin: 0;
+	margin: 0; border-radius:5px; -moz-border-radius:5px;
 }
 
 form fieldset p label {
